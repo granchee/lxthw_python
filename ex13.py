@@ -8,7 +8,7 @@ if args == 3:
     print "You forgot the third argument!"
     third = raw_input("Third argument please: ")
 else:
-    script, first, second, third = argv # Will fail is args < 3
+    script, first, second, third = argv # Will fail if args < 3
 
 print "The script is called:", script
 print "Your first variable is:", first
